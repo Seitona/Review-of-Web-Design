@@ -19,21 +19,21 @@
         </nav>
     </div>
     <main class="content">
-        <h2>Featured Products</h2>
-        <div class="products">
-            <div class="product">
-                <h3>Polo Shirt</h3>
-                <p>High quality fabric.</p>
-            </div>
-            <div class="product">
-                <h3>V-Neck</h3>
-                <p>Neck hole v shape.</p>
-            </div>
-            <div class="product">
-                <h3>Tank Top</h3>
-                <p>No sleeves</p>
-            </div>
-        </div>
+        <h2>Contact Us</h2>
+        <form action="/submit_form" method="POST">
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username" placeholder="Enter your username" required minlength="3" maxlength="20">
+
+  <br><br>
+
+  <label for="message">Bio / Message:</label>
+  <textarea id="message" name="message" rows="4" cols="30" placeholder="Tell us about your style..." required></textarea>
+
+  <br><br>
+
+  <button type="submit">Submit</button>
+</form>
+
     </main>
     <footer>
         <p>© 2026 Gen Z Threads. All rights reserved.</p>
